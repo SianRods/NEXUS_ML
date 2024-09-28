@@ -9,3 +9,12 @@ acc --> 0.64
 3. Without ID 
 X2=drug_df[['Drug_high_status','DRUGNAME', 'Disease_of_highest_status','Drug_Status', 'TARGNAME', 'GENENAME', 'BIOCLASS', 'SEQUENCE','Disease']]
 acc --> 0.91
+
+
+1. Random Forest --> 92
+2. XG Boost --> 94.72
+3. CADBOOST --> 92.17
+
+
+4.  xgboost Parameters 
+X3=df_encoded[['Drug_high_status','DRUGNAME', 'Disease_of_highest_status','Drug_Status', 'TARGNAME', 'GENENAME', 'BIOCLASS', 'SEQUENCE','Disease']]
