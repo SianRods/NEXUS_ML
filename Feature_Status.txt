@@ -1,3 +1,11 @@
 1.
 X2=drug_df[['ID','DRUGNAME','DRUGTYPE','Drug_high_status','Disease_of_highest_status','Drug_Status','BIOCLASS','Disease','TARGNAME']]
 acc --> 0.884675440553201
+
+2. Without ID 
+X2=drug_df[['ID','DRUGNAME','DRUGTYPE','Drug_high_status','Disease_of_highest_status','Drug_Status','BIOCLASS','Disease','TARGNAME']]
+acc --> 0.64
+
+3. Without ID 
+X2=drug_df[['Drug_high_status','DRUGNAME', 'Disease_of_highest_status','Drug_Status', 'TARGNAME', 'GENENAME', 'BIOCLASS', 'SEQUENCE','Disease']]
+acc --> 0.91
