@@ -1,0 +1,3 @@
+1.
+X2=drug_df[['ID','DRUGNAME','DRUGTYPE','Drug_high_status','Disease_of_highest_status','Drug_Status','BIOCLASS','Disease','TARGNAME']]
+acc --> 0.884675440553201
